@@ -9,7 +9,6 @@ int main()
 	cout <<"Введите перменную A, затем B, потом C"<< endl;
 	cin >> a >> b >> c;
 
-	//a to c, c to b, b to a
 	d = b;
 	e = c;
 	c = a;
