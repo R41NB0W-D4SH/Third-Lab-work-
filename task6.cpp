@@ -5,15 +5,17 @@ using namespace std;
 
 int main()
 {
-	setlocale (LC_ALL, "Russian");
-	float a;
-	cout <<"Введите значение переменной A"<< endl;
+	setlocale(0, "");
+	double a;
+	cout << "Введите значение переменной А" << endl;
 	cin >> a;
 
-	a = pow(a,8);
+	a = a * a;
+	a = a * a;
+	a = a * a;
 
-	cout <<"A = "<< a << endl;
-	
+	cout << "А = " << a << endl;
+
 	system("pause");
 	return 0;
 }
