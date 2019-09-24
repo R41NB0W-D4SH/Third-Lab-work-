@@ -6,12 +6,15 @@ using namespace std;
 int main()
 {
 	setlocale(0, "");
-	double a,b;
+	double a, b;
 	cout << "Введите значение переменной А" << endl;
 	cin >> a;
 
-	b = pow(a, 3);
-	a = b * b;
+	b = a;
+	a = a * a;
+	a = a * b;
+	b = a;
+	a = a * a;
 	a = a * a;
 	a = a * b;
 
